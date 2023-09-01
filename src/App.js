@@ -1,7 +1,7 @@
 import "./App.css";
-import PageHeader from "./Header/PageHeader";
-import Post from "./Post/Post";
-import TagButton from "./TagButton/TagButton";
+import PageHeader from "./components/Header/PageHeader";
+import Post from "./components/Post/Post";
+import TagButton from "./components/TagButton/TagButton";
 
 function App() {
   
