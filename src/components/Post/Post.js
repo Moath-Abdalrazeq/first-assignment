@@ -4,7 +4,7 @@ function Post(props) {
   const PostArray = Array.from({ length: 5 });
   return (
     <div>
-      {PostArray.map((_, index) => (
+      {PostArray.map(() => (
         <div className="container">
           <h1> {props.title} </h1>
           <hr />

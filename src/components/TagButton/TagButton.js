@@ -5,7 +5,7 @@ function TagButton() {
   return (
     <div className="TButton">
       <div className="ButtonRow">
-        {TagButtonArray.map((_, index) => (
+        {TagButtonArray.map(() => (
           <button className="TagButton">Tag Button</button>
         ))}
       </div>
