@@ -1,0 +1,19 @@
+.TButton {
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px  solid darkcyan;
+}
+
+.TagButton {
+  padding: 5px;
+  margin: 5px;
+  background-color: blueviolet;
+  color: #fff;
+  cursor: pointer;
+}
+
+.TagButton:hover {
+  background-color: #3897f0;
+}
