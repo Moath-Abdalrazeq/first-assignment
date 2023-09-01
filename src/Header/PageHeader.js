@@ -1,9 +1,9 @@
 import React from "react";
 import "./PageHeader.css";
-function PageHeader() {
+function PageHeader(props) {
   return (
     <header className="Header">
-      <p>Gaza Sky Geeks</p>
+      <p>{props.header}</p>
     </header>
   );
 }

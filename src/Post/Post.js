@@ -1,14 +1,14 @@
 import React from "react";
 import "./Post.css";
-function Post() {
+function Post(props) {
   const PostArray = Array.from({ length: 5 });
   return (
     <div>
       {PostArray.map((_, index) => (
         <div className="container">
-          <h1>This is a post title </h1>
+          <h1> {props.title} </h1>
           <hr />
-          <p>This is a post body</p>
+          <p>{props.body} </p>
         </div>
       ))}
     </div>
