@@ -1,9 +1,13 @@
 .TButton {
-  width: 20%;
+  width: 30%;
   margin: auto;
   margin-top: 20px;
   padding: 5px;
   border: 2px  solid darkcyan;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .TagButton {
@@ -12,8 +16,15 @@
   background-color: blueviolet;
   color: #fff;
   cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
 }
 
 .TagButton:hover {
   background-color: #3897f0;
 }
+ 
+
+ 
+ 
